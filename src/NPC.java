@@ -28,4 +28,9 @@ class NPC{
     public void setHealth(int health) {
         this.health = health;
     }
+
+    @Override
+    public String toString() {
+        return "Name: " + name + "\nLevel: " + level + "\nHealth: " + health;
+    }
 }
